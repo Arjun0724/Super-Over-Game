@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+body{
+    background-image: url("https://img.mensxp.com/media/content/2020/Feb/header-and-social-image-credit-Populous_5e53aee61b790.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    background-color:rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 450px;
+    padding: 20px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.pic{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.name{
+    color: white;
+    font-size: x-large;
+    font-style: bold;
+}
+
+.score{
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 20px;
+    align-self: center;
+}
+
+.goals{
+    color: lightgoldenrodyellow;
+    font-size: x-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#bat{
+    background-color: goldenrod;
+    font-size: larger;
+    width:200px;
+    height:150 px;
+    color:white;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+#try{
+    background-color: goldenrod;
+    font-size: larger;
+    width:200px;
+    height:150 px;
+    color:white;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+#circle{
+	display: inline-block;
+}
+
+#result{
+    font-size: x-large;
+    color:white;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.h1b{
+    margin-left: 20px;
+}
+
+.h2b{
+    margin-left: 130px;
+}

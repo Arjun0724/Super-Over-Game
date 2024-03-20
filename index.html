@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Over</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://images.thequint.com/thequint%2F2020-10%2F0a65c5fd-f2d1-4798-92e7-b186065fd840%2F_AI_1757.JPG?rect=0%2C0%2C3872%2C2178&auto=format%2Ccompress&fmt=webp&width=720&w=1200" type="image/x-icon">
+</head>
+<body>
+  <div class="container"> 
+    <h1>Super Over Match</h1>
+    <div class="row"> 
+      <div class="col"> 
+        <img src="https://logowik.com/content/uploads/images/chennai-super-kings3461.jpg" class="pic">  
+        <p class="name">CSK</p> 
+        <div class="row goals" id="team1goals"> 
+          <div id="circle">-</div> 
+          <div id="circle">-</div> 
+          <div id="circle">-</div> 
+          <div id="circle">-</div> 
+          <div id="circle">-</div> 
+          <div id="circle">-</div>
+        </div> 
+      </div> 
+      <div class ="col">
+        <div class="row score"> 
+          <div id="team1score">0</div>
+          <div>-</div>
+          <div id="team2score">0</div>
+        </div>
+      </div> 
+      <div class="col"> 
+        <img src="https://wallpapercave.com/wp/wp5040445.jpg" class="pic" > 
+                <p class="name">MI</p> 
+                <div class="row goals" id="team2goals"> 
+                    <div id="circle">-</div> 
+                    <div id="circle">-</div> 
+                    <div id="circle">-</div> 
+                    <div id="circle">-</div> 
+                    <div id="circle">-</div> 
+                    <div id="circle">-</div>
+                </div> 
+            </div>
+        </div>
+        <div class = "row">
+          <div class="h1b">
+          <input type="submit" value="Batting" id="bat" onclick="handleStrike()"></div>
+          <div class="h2b">
+          <input type="submit" value="Play Again" id="try" onclick="window.location.reload()">
+          </div>
+
+        </div> 
+        <div id="result"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
